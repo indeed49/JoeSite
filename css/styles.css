@@ -1,0 +1,278 @@
+/* Font Faces */
+
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url('../fonts/OpenSans-Bold.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url('../fonts/OpenSans-Regular.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: OpenSans-Light;
+    src: url('../fonts/OpenSans-Light.ttf') format('opentype');
+}
+
+/* END Font Faces */
+
+
+/* Page Header */
+
+.page-header{
+	background:url(../images/main-banner.jpg);
+	background-position: center;
+	background-size: cover;
+	display: table;
+	height: 550px;
+	width: 100%;
+	position: relative;
+	margin:0;
+    
+}
+
+.page-header .page-header-text{
+    display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+   padding-top: 28em;
+}
+.page-header .page-header-text a{
+	color: #fff;
+	text-decoration: none;
+}
+
+
+
+@media (max-width:991px) {
+    .page-header{
+	background:url(../images/main-bannerM.jpg);
+	background-position: center;
+	background-size: cover;
+	display: table;
+	height: 550px;
+	width: 100%;
+	position: relative;
+	margin:0;
+    
+} 
+}
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   PORTFOLIO START    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.project-section{
+    
+    padding-bottom: 40px;
+}
+
+
+
+/* Images Overlay
+----------------------------------------------------------------------------- */
+.overlay-container {
+    position: relative;
+    display: block;
+
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: -1px;
+    left: 0;
+    right: -1px;
+    background-color: rgba(255, 255, 255, 0.9);
+    cursor: pointer;
+    overflow: hidden;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+    transition: all linear 0.2s;
+}
+.overlay:hover {
+    text-decoration: none;
+}
+.overlay span {
+    position: absolute;
+    display: block;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 300;
+}
+.overlay i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size: 40px;
+    color: #333333;
+    margin-top: -20px;
+    margin-left: -20px;
+    text-align: center;
+}
+.overlay-container:hover .overlay {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.image-box{
+    width: 100%;
+    overflow: hidden;
+    padding-top: 30px;
+}
+
+/* Modals
+---------------------------------- */
+.modal-content {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.modal-header {
+    background-color: #333333;
+    color: #ffffff;
+}
+.modal-header h4 {
+    color: #ffffff;
+}
+
+.modal-body {
+    position: relative;
+    padding: 30px;
+}
+
+.modal-body h3 {
+    color: #333 !IMPORTANT;
+}
+.modal-body p {
+    color: #333 !IMPORTANT;
+}
+.modal-header .close {
+    font-weight: 300;
+    color: #FFFFFF;
+    text-shadow: none;
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+
+/* Large devices (Large desktops 1200px and up) */
+@media (min-width:1200px) {
+    .modal-lg {
+        width: 1140px;
+    }
+}
+
+.no-margin{
+    width: 100%;
+    margin: 0px;
+}
+
+.blue-background{
+
+    color: #fff;
+    background-color: #196096;
+}
+
+.btn-default{
+    font-weight: 400;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 3px;
+    border: solid 2px #fff;
+}
+
+.btn-default:hover{
+    color: #196096;
+    background-color: #fff;
+    border-radius: 3px;
+      border: solid 2px #fff;
+}
+
+
+.full-width{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.removepadding{
+
+    padding: 0px;
+
+}
+
+.callout{
+
+    padding: 30px;
+}
+
+.callout .btn{
+
+    margin-bottom: 30px;
+}
+
+.image-box img{
+    width: 100% !important;
+
+}
+
+.slider img{
+
+  max-width: 100%;
+  height: auto;
+
+    }
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   PORTFOLIO END    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   About Section Start    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.about-section{
+	background-color: #333333;
+	background-position: center;
+	background-size: cover;
+	display: table;
+	height: 300px;
+	width: 100%;
+	position: relative;
+	margin:0;
+}
+
+.about-section p{
+padding-top: 40px;    
+
+}
+
+.about-section hr{
+    padding-top: 40px;
+    width: 50%;
+}
+
+.footer p{
+padding-bottom: 30px;    
+
+}
+
+
+
+
+.social-linkin{
+ width: 35px;  
+ float: right;
+ margin-top: 40px;
+    
+    
+}
+
